@@ -1,0 +1,155 @@
+
+/*paleta de colores
+#F44336 rojo color
+#D32F2F rojo background
+#030204 negro 
+#ece4e4 gris claro color
+
+/*trabajo general*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background:#D32F2F;
+    color:#ece4e4;
+    margin: 0px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+/*trabajo el header*/
+header{
+width: 100%;
+height: 100px;
+}
+
+h1{
+    font-family: 'dominicanregular';
+    font-size: 75px;
+    letter-spacing: 35px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+/*trabajo section*/
+
+.tapa{
+    padding: 20px;
+    background: url(../ImagenesOscuroExtasis/wosGif.gif) fixed;
+    margin: 0 auto;
+    
+}
+
+
+.multimedia{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.disco{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+/*reproductor*/
+.audio{
+    width: 100%;
+}
+
+.ficha{
+    background: #D32F2F;
+    margin-left: 50px;
+    border-radius: 20px;
+    padding:2px;
+    width: 25%;
+
+}
+
+/*trabajo una clase para letras*/
+.font{
+    font-family: 'dominicanregular';
+    letter-spacing: 5px;
+    text-shadow: #ece4e4 1px 0px 5px;
+    color: #030204;
+    margin: 10px;
+}
+
+/*trabajo canción*/
+section p{
+    font-style:italic;
+    font-weight: 100;
+}
+
+
+
+.letra{
+    background: rgba(3, 2, 4, 0.6);
+    width:33% ;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    margin-top:5px;
+}
+
+.estribillo{
+    color: #F44336;
+    font-weight: 400;
+}
+
+section div p:nth-child(16){
+    text-transform: uppercase;
+}
+
+/*trabajo footer*/
+footer{
+    background: #D32F2F;
+    height: 300px;
+    width: 100%;
+}
+
+footer img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:20px;
+}
+
+/*trabajo enlaces*/
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'dominicanregular';
+    letter-spacing: 5px;
+    text-shadow: #ece4e4 3px 1px 5px;
+    color: #030204;
+}
+
+a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'dominicanregular';
+    letter-spacing: 5px;
+    text-shadow: #030204 3px 0px 1px;
+    color: #ece4e4 ;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: 'dominicanregular';
+    letter-spacing: 5px;
+    text-shadow: #ece4e4 1px 0px 1px;
+    color: #030204;
+    margin-left: 150px;
+}
+
+
+
+
+
+
